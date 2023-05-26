@@ -1,0 +1,49 @@
+.NewLetter{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: $secondary;
+    padding: 30px 40px;
+    color: $text_clr;
+
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        .title{
+            font-size: 30px;
+        }
+
+        .details{
+            font-size: 18px;
+            font-weight: 300;
+        }
+    }
+
+    .form{
+       form{
+           display: flex;
+           align-items: center;
+
+           input{
+            padding: 10px;
+            width: 30em;
+           }
+
+           .button{
+            cursor: pointer;
+            padding: 10px;
+            color: black;
+            background-color: $primary;
+            border: 1px solid black;
+            transition: all .21s ease-in-out;
+            &:hover{
+                background-color: transparent;
+                color: white;
+                border: 1px solid white;
+            }
+           }
+       } 
+    }
+}

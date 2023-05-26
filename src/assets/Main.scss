@@ -1,0 +1,37 @@
+@import './Variables.scss';
+@import './NewLetter.scss';
+@import './Animation.scss';
+@import './Footer.scss';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+    scroll-behavior: smooth;
+}
+
+section{
+    width: 1200px;
+    margin: 20px auto;
+    
+}
+
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked, .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate{
+    color: red !important;
+}

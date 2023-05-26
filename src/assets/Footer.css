@@ -1,0 +1,30 @@
+/*
+*{
+    margin: 0;
+    padding: 0;
+}
+.footer{
+    padding: 30px;
+    margin-top: auto;
+    background-color: rgb(197, 197, 197);
+    
+    position: relative;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.MuiSvgIcon-root{
+    color: rgb(93, 92, 92);
+}
+.MuiSvgIcon-root:hover{
+    color:rgb(28, 77, 255) ;
+    transition: 0.5s;
+    transform: scale(2);
+}
+.text-center{
+    padding-top: 10px;
+    color: rgb(93, 92, 92);
+}
+*/
